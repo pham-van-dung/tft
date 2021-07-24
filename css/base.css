@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet');
+
+:root {
+    --primary-color:#ee4d2d;
+    --whitte-color: #fff;
+    --black-color:#333;
+    --text-color: #333;
+    --border-color:#dbdbdb;
+    --star-gold-color: #ffce3e;
+    --header-height: 120px;
+    --header-sort-bar-height: 48px;
+    --navbar-height : 50px;
+    --navbar-toolber-height:50px;
+    --header-with-search-height : calc(var(--header-height) - var(--navbar-height));
+    --growth-from:0.7;
+    --growth-to:1;
+}
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 62.5%; /* 10px */
+    /*100%: 16px */
+    line-height: 1.6rem;
+    font-family: 'Popins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: #0d202b;
+    /* overflow: hidden; */
+}
+
+/* Animation */
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes growth{
+    from{
+        transform: scale(var(--growth-from));
+    }
+    to{
+        transform: scale(var(--growth-to));
+    }
+}
+@keyframes slideRight {
+    0%{
+      transform: translateX(150px);
+      opacity: 0;
+    }
+    100%{
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slideLeft {
+    0%{
+      transform: translateX(-150px);
+      opacity: 0;
+    }
+    100%{
+      transform: translateX(0);
+      opacity: 1;
+      z-index: 100;
+    }
+  }
+  @keyframes slideTop {
+    0%{
+      transform: translateY(-150px);
+      opacity: 0;
+    }
+    100%{
+      transform: translateX(0);
+      opacity: 1;
+      z-index: 100;
+    }
+  }
+  @keyframes slideBottom {
+    0%{
+      transform: translateY(150px);
+      opacity: 0;
+    }
+    100%{
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slideSpinner {
+    0%{
+        transform: rotate(-225deg);
+        opacity: 0;
+    }
+    100%{
+        transform: rotate(0);
+        opacity: 1;
+    }
+  }
