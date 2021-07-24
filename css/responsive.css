@@ -205,9 +205,9 @@
   .content--1 h1{
     font-size:30px;
   }
-  .content--1 p{
+  /* .content--1 p{
     margin-bottom: 40px;
-  }
+  } */
   .col.content--2{
     margin-bottom: 40px;
   }
@@ -267,6 +267,7 @@
   }
   .col.content--6{
     padding: 0;
+    margin-bottom: 40px;
   }
   .content--6 h2{
     font-size:24px
