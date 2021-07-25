@@ -85,7 +85,7 @@
   font-size:14px;
   font-weight:600;
   animation: slideBottom 0.5s ease-in-out forwards;
-  animation-delay:calc(0.2s * var(--i));
+  animation-delay:calc(0.1s * var(--i));
   opacity: 0;
 }
 .header-select-btn .header-set-btn span:hover{
@@ -180,7 +180,7 @@
   display: flex;
   align-items:center;
   animation: slideBottom 0.5s ease-in-out forwards;
-  animation-delay:calc(0.2s * var(--i));
+  animation-delay:calc(0.1s * var(--i));
   opacity: 0;
 }
 .header-search .select ul li a{
