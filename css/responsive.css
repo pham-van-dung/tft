@@ -176,7 +176,13 @@
   }
 }
 @media (max-width:739px){
-  
+  .tables{
+    padding: 0 15px;
+    margin-top: 10px;
+  }
+  .dark-table-content{
+    padding: 40px 0;
+  }
   .col.header-container{
     padding: 0 25px;
   }

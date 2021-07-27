@@ -654,12 +654,13 @@ font-weight: 400;
   margin: 0 0 10px;
 }
 .tables{
-  margin: 30px 10px 0;
+  margin-top: 30px;
 }
 .table{
   background: #123040;
   padding: 0;
   border-radius: 3px;
+  height: 100%;
 }
 .table h4{
   color: #fff;
@@ -701,6 +702,7 @@ font-weight: 400;
   font-weight: 600;
   line-height: 1.3em;
   margin: 0 0 10px;
+  text-align: center;
 }
 .app-tutorial{
   display: flex;
@@ -913,7 +915,7 @@ input:checked + .slider:before {
   align-items: center;
   cursor: pointer;
 }
-.checkboxs:hover{
+.checkboxs:hover a{
   color: #fff;
 }
 
