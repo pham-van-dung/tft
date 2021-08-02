@@ -157,7 +157,7 @@
   }
   .mobile-nemu.active .mobile-item{
     animation: slideBottom 0.5s ease-in-out forwards;
-    animation-delay: calc( 0.2s + (0.2s * var(--i)));
+    animation-delay: calc(0.1s * var(--i));
     opacity: 0;
   }
 }
