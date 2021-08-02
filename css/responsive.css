@@ -152,7 +152,7 @@
     opacity: 1;
   }
   .mobile-nemu.active h2{
-    animation: slideTop 0.5s ease-in-out forwards;
+    animation: slideTop 0.3s ease-in-out forwards;
     opacity: 0;
   }
   .mobile-nemu.active .mobile-item{
