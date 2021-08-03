@@ -77,6 +77,8 @@
 .header-select-btn .header-set-btn.show{
   display:block;
   z-index: 100;
+  opacity: 0;
+  animation: fadeIn 0.3s ease-in-out forwards;
 }
 .header-select-btn .header-set-btn span{
   padding: 5px 0 5px 10px;
@@ -84,9 +86,6 @@
   width: 100%;
   font-size:14px;
   font-weight:600;
-  animation: slideBottom 0.5s ease-in-out forwards;
-  animation-delay:calc(0.1s * var(--i));
-  opacity: 0;
 }
 .header-select-btn .header-set-btn span:hover{
   background: #123040;
@@ -172,6 +171,8 @@
 .header-search .select ul.show{
   display: block;
   z-index: 100;
+  opacity: 0;
+  animation: fadeIn 0.3s ease-in-out forwards;
   
 }
 .header-search .select ul li{
@@ -179,9 +180,6 @@
   padding: 8px 0;
   display: flex;
   align-items:center;
-  animation: slideBottom 0.5s ease-in-out forwards;
-  animation-delay:calc(0.1s * var(--i));
-  opacity: 0;
 }
 .header-search .select ul li a{
   text-decoration: none;
